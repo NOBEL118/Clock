@@ -1,0 +1,24 @@
+/* style.css */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2a0845, #1a1a2e);
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+#clock {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff66cc;
+  text-shadow: 0 0 10px rgba(255, 102, 204, 0.7),
+               0 0 20px rgba(255, 102, 204, 0.5);
+  padding: 20px 40px;
+  border: 2px solid rgba(255, 102, 204, 0.4);
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(5px);
+}
